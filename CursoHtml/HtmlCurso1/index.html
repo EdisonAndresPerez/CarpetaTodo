@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyWeave</title>
+    <!-- Coloca aquí el código de integración de Font Awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" rel="stylesheet">
+    <link rel="icon" href="img/icono1.ico">
+    <!-- Otros enlaces a estilos o scripts -->
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <header class="cabeza"> <!-- Sección de encabezado de la página -->
+        <div class="container"> <!-- Contenedor para centrar y limitar el ancho del contenido -->
+            <h1 class="titulo">¡Bienvenido a Weave! <img class="titulo_img" src="img/1248608.png" alt="icono" width="150px" height="100px"></h1> <!-- Título principal del sitio -->
+            <nav> <!-- Navegación principal del sitio -->
+                <ul> <!-- Lista de elementos de navegación -->
+                    <li><a href="#inicio"><span class="resaltar">Inicio</span></a></li> <!-- Elemento de navegación "Inicio" -->
+                    <li><a href="#acerca_de_mi"><span class="resaltar">Acerca de mi</span></a></li> <!-- Elemento de navegación "Acerca de" -->
+                    <li><a href="#servicios"><span class="resaltar">Servicios</span></a></li> <!-- Elemento de navegación "Servicios" -->
+                </ul>
+            </nav>  
+        </div>
+    </header>
+
+    <section class="container"> <!-- Sección principal de contenido -->
+        <main class="contenido-principal"> <!-- Contenido principal de la página -->
+            <h2 id="inicio" class="titulo_amigurumis">amigurumis</h2>
+
+            <div class="container_general">
+                <article> <!-- Elemento de artículo -->
+                    <h2>Conejo</h2> <!-- Título del artículo -->
+                    <p>conejito con overol <br>
+                        tejido a crochet 🧶 <br>
+                        100% artesanal
+                    </p>
+                    <img src="img/conejo.jpg" c alt="conejito" width="200px" height="250px"  onclick="enlargeImage(this)" class="img_hover sombra" >
+                </article>
+            </div>
+            
+            <div class="container_general">
+                <article> <!-- Otro artículo -->
+                    <h2>Minions</h2> <!-- Título del artículo -->
+                    <p>Minion  <br>
+                        tejido a crochet 🧶 <br>
+                        100% artesanal</p> <!-- Contenido del artículo -->
+                    <img src="img/minio1.jpg" alt="minion" width="200px" height="250px"  onclick="enlargeImage(this)" class="img_hover sombra">
+                </article>
+            </div>
+            
+            <div class="container_general">
+                <article>
+                    <h2>Perro</h2>
+                    <p>Perro dorado <br>
+                    tejido a crochet🧶 <br>
+                    100% artesanal</p> 
+                    <img src="img/perro.jpg" alt="perro" width="200px" height="250px"  onclick="enlargeImage(this)" class="img_hover sombra">
+                </article>
+            </div>
+
+            <div class="container_general">
+                <article>
+                    <h2>Perro blanco</h2>
+                    <p>Perro dorado <br>
+                        tejido a crochet🧶 <br>
+                        100% artesanal</p> 
+                        <img src="img/perroblanco.jpg" alt="perroBlanco" width="200px" height="250px" onclick="enlargeImage(this)" class="img_hover sombra">
+                </article>
+            </div>
+            
+            <div class="container_general">
+                <article>
+                    <h2>Gato</h2>
+                    <p>Perro dorado <br>
+                        tejido a crochet🧶 <br>
+                        100% artesana</p> 
+                        <img src="img/gata.jpg" alt="gato" width="200px" height="250px" class="img_hover sombra" onclick="enlargeImage(this)">
+
+                </article>
+            </div>
+         </main>
+
+
+        <aside class="barra-lateral"> <!-- Barra lateral opcional para contenido adicional -->
+            <h2>Contactame</h2> <!-- Título de la barra lateral -->
+            <ul> <!-- Lista de elementos de la barra lateral -->
+                <li><a href="https://www.instagram.com/only_weave?igsh=MTRhZXo3NXptYzdmaw==" class="social-link">Instagram <i class="fab fa-instagram"></i></a></li>
+                <br>
+                <li><a href="#" class="social-link">WhatsApp <i class="fab fa-whatsapp"></i></a></li>
+                <br>
+                <li><a href="https://www.facebook.com/profile.php?id=61551451268066&mibextid=2JQ9oc" class="social-link">Facebook <i class="fab fa-facebook"></i></a></li>
+                <br>
+            </ul>
+            <h3>Video para nuevos</h3>
+            <video src="videos/Crochet para principiantes_ Primeros pasos, nudo de inicio y cadenas..mp4" class="video-crochet" controls width="300px" height="250px"></video>
+            <table class="table-horario">
+                <tr>
+                    <th colspan="5">Dias de atencion</th>
+                </tr>
+                <tr>
+                    <td>lunes</td>
+                    <td>martes</td>
+                    <td>miercoles</td>
+                    <td>jueves</td>
+                    <td>viernes</td>
+                </tr>
+                <tr>
+                    <td>8:00 am a 6:00 pm</td>
+                    <td>8:00 am a 6:00 pm</td>
+                    <td>10:00 am a 4:00 pm</td>
+                    <td>8:00 am a 6:00 pm</td>
+                    <td>8:00 am a 6:00 pm</td>
+                </tr>
+            </table>
+        </aside>
+    </section>
+
+    <section class="container_acerca">
+        <h2 id="acerca_de_mi" class="acerca_de">acerca de mi </h2>
+        <hr class="separador_acerca_de">
+        <p class="acerda_de_descripcion"> ¡hola! mi nombre es Sara Isabella olaya, tengo 18 años y quiero
+            enseñarles mi emprendimiento que lo hice con todo amor :D. <br>
+            Bienvenidos a nuestro acogedor rincón de tejidos en crochet! 
+            🌟 Aquí, cada puntada es un abrazo cálido y cada hilo es un susurro de ternura.
+            🧶💖 Explora estilos personalizados con creatividad sin límites en Ibagué.
+            ¡Descubre piezas únicas que cuentan historias de amor y calidez! ✨🌈
+            #TejidosConAmor #EstiloPersonalizado
+        </p>
+        <blockquote>
+            "Si puedes soñarlo, puedes lograrlo"
+        </blockquote>
+    </section>
+
+    <hr class="separador_acerca_de">
+    <section class="container_acerca">
+        <h2 id="servicios" class="acerca_de"> Servicios</h2>
+        <p class="acerda_de_descripcion">ofrecemos una amplia gama de productos de crochet meticulosamente elaborados
+            para satisfacer tus necesidades y deleitar tus sentidos.
+            Explora nuestra colección de productos que incluye desde encantadores amigurumis
+            y accesorios de moda hasta decoraciones para el hogar, todos diseñados para agregar
+            un toque de calidez y estilo a tu vida diaria. Cada artículo está cuidadosamente elaborado
+            a mano con los mejores materiales, asegurando durabilidad, confort y un acabado impecable.</p>
+
+    </section>
+
+
+
+    <footer class="parte-final"> <!-- Pie de página de la página -->
+        <div class="container"> <!-- Contenedor para centrar y limitar el ancho del contenido del pie de página -->
+            <p>Derechos de autor &copy; 2024 Weave</p> <!-- Texto de derechos de autor -->
+        </div>
+    </footer>
+
+</body>
+</html>

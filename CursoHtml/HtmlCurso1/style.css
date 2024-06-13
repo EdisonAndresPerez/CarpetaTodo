@@ -1,0 +1,262 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cabeza{
+    background-image: url(img/estaes.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.titulo{
+    text-align: center;
+    color: black;
+}
+.titulo_img{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.resaltar{
+    font-weight: bold;
+    color: black;
+}
+
+.contenido-principal{
+    background-color: antiquewhite;
+}
+
+.container_general {
+    text-align: center; /* Centra el contenido del contenedor */
+}
+
+.container_general h2 {
+    margin-bottom: 10px; 
+}
+
+.container_general p {
+        margin-bottom: 10px; 
+}
+
+.container_general img {
+    display: block;
+    margin: 0 auto; 
+}
+
+.img_hover.sombra {
+    box-shadow: 10px 20px 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+
+
+.img_hover {
+    transition: transform 0.3s ease; 
+}
+
+.img_hover:hover {
+    transform: scale(1.1); 
+    cursor: pointer; 
+}
+
+.enlarged {
+    width: 400px; 
+    height: auto;
+    cursor: pointer; 
+}
+
+
+.titulo_amigurumis{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.titulo_amigurumis_icono{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.barra-lateral{
+    background-color: #D9FFEC; 
+    padding: 20px;
+}
+
+.barra-lateral h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.barra-lateral ul li {
+    margin-bottom: 10px;
+}
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+    background-color: pink;
+    color: #fff;
+}
+
+.social-link i {
+    margin-left: 10px;
+}
+
+.social-link:hover i {
+    color: #fff;
+}
+
+.barra-lateral ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.video-crochet {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.table-horario{
+   margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+
+.espacio{
+    margin-bottom: 20px;
+}
+
+.container_acerca{
+  display: block;
+}
+
+.acerca_de{
+    color: brown;
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 10px;    
+}
+
+.separador_acerca_de{
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.acerda_de_descripcion{
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+
+.parte-final{
+    background-color: brown;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+}
+
+main {
+    flex: 2;
+    padding-right: 20px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+}
